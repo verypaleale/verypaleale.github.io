@@ -1,0 +1,102 @@
+body {
+    background: #efefef;
+}
+
+header {
+    border-bottom: solid #cccccc;
+    background: #ffffff;
+    height: 75px;
+    margin: -10px;
+}
+
+#name {
+    background: teal;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    left: 18%;
+    top: 18%;
+    padding: 25px;
+}
+
+#about {
+    text-align: center;
+    position: relative;
+    left: 51%;
+    border: black;
+    color: #777777;
+    font-size: 18px;
+}
+
+#port {
+    text-align: center;
+    position: relative;
+    left: 53%;
+    color: #777777;
+    font-size: 18px;
+}
+
+#contact {
+    text-align: center;
+    position: relative;
+    left: 55%;
+    color: #777777;
+    font-size: 18px;
+}
+
+#main {
+    background: #ffffff;
+    border: #dddddd;
+    width: 960px;
+    position: relative;
+    left: 18%;
+    right: 18%;
+}
+
+h1 {
+    color: teal;
+    text-align: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #cccccc;
+}
+
+#ch_img {
+    width: 250px;
+    border: solid black;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#bio {
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777777;
+}
+
+#bio-3 {
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+    color: #777777;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
