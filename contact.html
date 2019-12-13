@@ -8,19 +8,47 @@
 
 <body>
     <header>
-        <label id="name"><b>Cait Huber</b></label>
-        <a href="index.html" id="about">About</a>
-        <a href="portfolio.html" id="port">Portfolio</a>
-        <a href="contact.html" id="contact">Contact</a>
+        <div id="head">
+            <ul>
+                <label id="name"><b>Cait Huber</b></label>
+                <li><a style="text-decoration: none;" href="index.html" id="about">About</a></li>
+                <li><a style="text-decoration: none;" href="portfolio.html" id="port">Portfolio</a></li>
+                <li><a style="text-decoration: none;" href="contact.html" id="contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
+    <br>
+    <br>
+
     <div id="main">
-        <h1>Contact</h1>
-        <br>
-        <p>Name</p>
-        <p>Email</p>
-        <p>Message</p>
-        <p>Send</p>
+            <h1>Contact</h1>
+            <br>
+                <form action="action_page.php">
+                
+                    <label for="fname">First Name</label>
+                    <br>
+                    <input type="text" class="inpbox" placeholder="Your name...">
+                    <br>
+                    <br>
+    
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" class="inpbox" placeholder="example@example.com">
+                    <br>
+                    <br>
+                
+                    <label for="subject">Subject</label>
+                    <br>
+                    <textarea id="subject" placeholder="Your message here..." ></textarea>
+                    <br>
+                    <br>
+                
+                    <input type="submit" value="Submit">
+                    <br>
+                    <br>
+                
+                </form>
     </div>
 
     <footer>
