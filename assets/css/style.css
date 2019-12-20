@@ -1,5 +1,5 @@
 body {
-    background: #efefef;
+    background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/spikes.png");
 }
 
 header {
@@ -22,12 +22,12 @@ ul {
 }
 
 #name {
-    margin: -40px;
+    margin: -10px;
     background: teal;
     text-align: center;
     font-size: 32px;
     color: white;
-    padding: 32px;
+    padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -110,7 +110,7 @@ footer {
 footer p {
     color: white;
     text-align: center;
-    font-size: :12px;
+    font-size: 12px;
 }
 
 form {
