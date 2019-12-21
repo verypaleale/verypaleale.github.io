@@ -119,14 +119,15 @@ input[type=submit] {
 }
 
 .projlabel {
+    text-align: center;
     background-color: teal;
     color: white;
     position: absolute;
-    left: 21.2px;
-    bottom: 50px;
-    padding: 10px 24.9px 10px 24.9px;
-    width: 200px;
-}
+    left: 20px;
+    top: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 245px;
 
 .p1 {
     position: relative;
@@ -136,7 +137,8 @@ input[type=submit] {
 .projpics {
     width: 250px;
     height: 250px;
-    padding-left: 20px; 
+    float: left;
+    padding-left: 5px; 
     margin-right: 80px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
