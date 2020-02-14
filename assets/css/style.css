@@ -120,7 +120,7 @@ input[type=submit] {
 
 .projlabel {
     text-align: center;
-    background-color: #FF5733;
+    background-color: #6A6A64;
     color: white;
     position: absolute;
     left: 20px;
@@ -144,6 +144,6 @@ input[type=submit] {
     margin-top: 30px;
 }
 
-a {
+.projlabel a { // THIS SHOULD WORK??
     color: #FFFFFF;
   }
