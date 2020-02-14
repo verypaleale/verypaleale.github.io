@@ -4,7 +4,7 @@ body {
 
 header {
     border-bottom: solid #cccccc;
-    background: #ffffff;
+    background: #6A6A64;
     margin: 0 auto;
     margin: -30px;
     padding: 10px;
@@ -20,7 +20,7 @@ ul {
 }
 
 #name {
-    background: teal;
+    background: #FF5733;
     text-align: center;
     font-size: 36px;
     color: white;
@@ -32,7 +32,7 @@ ul {
 
 li a {
     display: inline-block;
-    color: #777777;
+    color: #FFFFFF;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
@@ -44,14 +44,14 @@ li a {
 }
 
 #main {
-    background: #ffffff;
+    background: #E1E1E0;
     border: #dddddd;
     width: 960px;
     margin: 0 auto;
 }
 
 h1{
-    color: teal;
+    color: #FF5733;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;
@@ -78,9 +78,9 @@ h1{
 }
 
 footer {
-    background-color: #666666;
+    background-color: #6A6A64;
     color: white;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #FF5733;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -111,7 +111,7 @@ form {
 }
 
 input[type=submit] {
-    background-color: teal;
+    background-color: #FF5733;
     color: white;
     border: none;
     padding: 16px 32px;
@@ -120,7 +120,7 @@ input[type=submit] {
 
 .projlabel {
     text-align: center;
-    background-color: teal;
+    background-color: #FF5733;
     color: white;
     position: absolute;
     left: 20px;
@@ -143,3 +143,7 @@ input[type=submit] {
     margin-right: 80px;
     margin-top: 30px;
 }
+
+a {
+    color: #FFFFFF;
+  }
